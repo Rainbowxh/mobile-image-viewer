@@ -1,0 +1,24 @@
+{
+  "name": "mobile-image-viewer",
+  "version": "1.0.0",
+  "main": "src/main/index.js",
+  "repository": "git@github.com:Rainbowxh/mobile-image-viewer.git",
+  "author": "elicxh <elicxh@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "start": "rollup -w -c"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
+    "@typescript-eslint/parser": "^6.6.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.49.0",
+    "rollup": "^3.29.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.35.0",
+    "rollup-plugin-uglify": "^6.0.4",
+    "typescript": "^5.2.2"
+  }
+}
